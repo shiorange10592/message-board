@@ -2,7 +2,11 @@ Rails.application.routes.draw do
   
   root 'messages#index'
   resources :messages , except: [:index, :new]
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> challenge1
   #get 'messages/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
